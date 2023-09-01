@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:var(--main-bg-color); 
+    font-family: 'lato',sans-serif;  
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    align-items: center;
+    mix-blend-mode:screen;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 13px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.searbar{
+    display: flex;
+    align-items: center;
+}
+.searbar input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.cards{
+    display: flex;
+    overflow:hidden;
+}
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction:column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.contaner{
+    min-height: calc(100vh - 58px - 10vh);
+}
+footer{
+    height: 10vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
